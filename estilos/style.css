@@ -12,21 +12,35 @@ html, body {
     background-color: black;
 }
 
+body {
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main {
     height: 100vh;
     position: relative;    
-    background-color: green;
+  
 }
 
 section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
+    height: 637px;
     width: 311px;
     
     background: url(../imagens/frame-iphone.png) no-repeat;
     position: absolute;
-    background-color: blue;
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
 
